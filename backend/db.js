@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 
 const connectDB = async () => {
-  const MONGO_URI =
-    "mongodb+srv://roadsidecoder:12345678p@tutorials.pieze.mongodb.net/roadsidecoder?retryWrites=true&w=majority";
+  const MONGO_URI = "---Your-Mongo-URI-Here---";
 
   try {
     const conn = await mongoose.connect(MONGO_URI, {
